@@ -9,7 +9,7 @@ Scope: Basic login, product list, cart and checkout flow.
 **Preconditions:**  
 - Valid user account exists (e.g. `standard_user`).
 
-**High-level steps:**
+**Steps**
 1. Open SauceDemo login page.
 2. Enter valid username.
 3. Enter valid password.
@@ -27,7 +27,7 @@ Scope: Basic login, product list, cart and checkout flow.
 **Preconditions:**  
 - Valid username is known.
 
-**High-level steps:**
+**Steps**
 1. Open login page.
 2. Enter valid username.
 3. Enter invalid password.
@@ -46,7 +46,7 @@ Scope: Basic login, product list, cart and checkout flow.
 **Preconditions:**
 - User is logged in and on the products page.
 
-**High-level steps:**
+**Steps**
 1. Click "Add to cart" for any product.
 2. Check the cart icon in the header.
 3. Open cart page.
@@ -63,7 +63,7 @@ Scope: Basic login, product list, cart and checkout flow.
 **Preconditions:**
 - At least one product is already in the cart.
 
-**High-level steps:**
+**Steps**
 1. Open cart page.
 2. Click "Remove" on the product.
 3. Observe the cart content.
@@ -81,7 +81,7 @@ Scope: Basic login, product list, cart and checkout flow.
 - User is logged in.
 - At least one product is in cart.
 
-**High-level steps:**
+**Steps**
 1. Open cart page.
 2. Click "Checkout".
 3. Fill in all required fields (first name, last name, postal code).
@@ -101,7 +101,7 @@ Scope: Basic login, product list, cart and checkout flow.
 - User is logged in.
 - At least one product is in cart.
 
-**High-level steps:**
+**Steps**
 1. Open cart page.
 2. Click "Checkout".
 3. Leave one or more required fields empty.
@@ -119,7 +119,7 @@ Scope: Basic login, product list, cart and checkout flow.
 **Preconditions:**
 - User is logged in and on products page.
 
-**High-level steps:**
+**Steps**
 1. Log out from the application.
 2. Try to access products or cart page using direct URL / browser history.
 
